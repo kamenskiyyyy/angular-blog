@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {AuthService} from "../shared/services/auth.service";
 import {ActivatedRoute, Params, Router} from "@angular/router";
-import {User} from "../../shared/fbAuthResponce";
+import {User} from "../../shared/interfaces";
 
 @Component({
   selector: 'app-login-page',
